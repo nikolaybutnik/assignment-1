@@ -1,13 +1,16 @@
+/* Box size settings to be applied to the entire file. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Change background of the page. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Modify settings of header containing logo and navigation buttons. */
 .header {
     width: 100%;
     height: 95px;
@@ -16,17 +19,17 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Logo. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
     margin-top: 20px;
 }
-
+/* Logo. */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Navigation. */
 .header div {
     padding-top: 35px;
     margin-right: 40px;
@@ -34,25 +37,37 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Unordered list. */
 .header div ul {
     list-style-type: none;
 }
-
+/* Unordered list items. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Links (header navigation). */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* Link behavior on hover. */
+a:hover {
+    color: #d9dcd6;
+}
+/* <button> element for links. */
+button {
+    background-color: #2a607c;
+    border: none;
+}
 
+/* Paragaphs. */
 p {
     font-size: 16px;
 }
 
+/* Main background image of the webpage. */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,22 +77,26 @@ p {
     background-position: center;
 }
 
+/* Class for floating objects left. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class for floating objects right. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Wrapper for the <main> content on the page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* The <aside> element. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,55 +108,59 @@ p {
     background-color: #2589bd;
     overflow: auto;
 }
-
+/* <div> of <aside>. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
+    overflow: auto;
 }
-
+/* <div> of <aside>. */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
+    overflow: auto;
 }
-
+/* <div> of <aside>. */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+    overflow: auto;
 }
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Part of <aside>. */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Part of <aside>. */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Part of <aside>. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Part of <aside>. */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Part of <aside>. */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* <div> part of the <main> content. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -147,7 +170,7 @@ p {
     color: #ffffff;
     overflow: auto;
 }
-
+/* <div> part of the <main> content. */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -157,7 +180,7 @@ p {
     color: #ffffff;
     overflow: auto;
 }
-
+/* <div> part of the <main> content. */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -167,41 +190,42 @@ p {
     color: #ffffff;
     overflow: auto;
 }
-
+/* Part of the <main> content. */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* Part of the <main> content. */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* Part of the <main> content. */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Part of the <main> content. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Part of the <main> content. */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Part of the <main> content. */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer with copyright info. */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Part of footer. */
 .footer h2 {
     font-size: 20px;
 }
